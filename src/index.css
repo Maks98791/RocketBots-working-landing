@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900;
+  }
+}
+
+@layer utilities {
+  .bg-gray-750 {
+    background-color: #2D374D;
+  }
+}
